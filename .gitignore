@@ -1,0 +1,26 @@
+# .gitignore
+
+# ---- General ----
+.DS_Store
+Thumbs.db
+*.log
+.env
+
+# ---- Go (graphiti backend) ----
+graphiti/bin/
+graphiti/build/
+graphiti/coverage.out
+graphiti/*.test
+graphiti/go.sum
+
+# ---- Node (frontend) ----
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+frontend/.next/
+frontend/.output/
+frontend/.cache/
+
+# ---- Editor/Tooling ----
+.vscode/
+.idea/
